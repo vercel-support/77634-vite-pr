@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <HelloWorld msg="<%= VITE_VERCEL_GIT_COMMIT_REF %> Hello Vue 3 + Vite" />
 </template>
 
 <script setup>
